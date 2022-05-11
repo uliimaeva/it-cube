@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supernatural Wiki | Главные персонажи</title>
+    <link rel="stylesheet" href="../css/Pers.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="../Pages/index.html">
+            <img src="../img/logo.png" alt="logo">
+          </a>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="../Pages/index.html">Главная</a></li>
+            <li ><a href="../Pages/gallery.html">Галерея</a></li>
+            <li id="active"><a href="../Pages/Pers.html">Главные Персонажи</a></li>
+            <li><a href="../Pages/season.html">Сезоны</a></li>
+            <li><a href="../Pages/History.html">История создания</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </header>
+    
+    <section class="campus">
+      <div class="row">
+        <div class="campus-col">
+          <img src="../img/Sam-W.jpg" alt="london">
+          <div class="layer">
+            <h3>Сэм Винчестер</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="../img/Dean-W.jpg" alt="london">
+          <div class="layer">
+            <h3>Дин Винчестер</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="../img/Cast.jpg" alt="london">
+          <div class="layer">
+            <h3>Кастиэль</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="campus-col">
+          <img src="../img/jak.jpg" alt="london">
+          <div class="layer">
+            <h3>Джек Клайн</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="../img/Lucif.jpg" alt="london">
+          <div class="layer">
+            <h3>Люцифер</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="../img/Croul.jpg" alt="london">
+          <div class="layer">
+            <h3>Кроули</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <nav>
+        <p>Supernaturalwiki.com</p>
+        </nav>
+    </footer>
+    <script>
+
+        let navLinks = document.getElementById('navLinks');
+        function showMenu() {
+          navLinks.style.right = '0';
+        }
+        function hideMenu() {
+          navLinks.style.right = '-200px';
+        }
+  
+      </script> 
+      <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+</body>
+</html>
