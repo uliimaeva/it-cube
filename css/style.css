@@ -3,7 +3,10 @@
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
-  
+
+body{
+    background: #25283D;
+}
   
 header {
     min-height: 100vh;
@@ -97,6 +100,62 @@ nav img {
 nav .fas {
     display: none;
 }
+
+nav .fas {
+    display: none;
+}
+  
+.abc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+/* .content img{
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */
+
+.content {
+    width: 85%;
+    text-align: start;
+    margin: auto;
+}
+
+.content p{
+    color: #fff;
+}
+  
+
+@media(max-width: 900px){
+    .row{
+      align-items: center;
+      flex-direction: column;
+    }
+    .row .text{
+      color:white;
+      width: 100%;
+      margin-left: 0;
+      text-align: justify;
+    }
+  
+    /* .content img{
+      width: 100%;
+      border-radius: 5px; 
+    } */
+
+    .content {
+        width: 85%;
+        text-align: start;
+        margin: auto;
+    }
+
+    .content p{
+        color: #fff;
+    }
+}
   
   @media(max-width: 800px) {
     .text-box h1 {
@@ -125,4 +184,90 @@ nav .fas {
     .nav-links ul {
       padding: 30px;
     }
-  }
+    .row{
+        align-items: center;
+        flex-direction: column;
+    }
+    .row img{
+        margin: 0 auto;
+    }
+    .row .text{
+        color:white;
+        width: 90%;
+        margin-left: 0;
+        text-align: justify;
+    }
+
+    .content {
+        width: 85%;
+        text-align: start;
+        margin: auto;
+    }
+
+    .content p{
+        color: #fff;
+    }
+
+}
+footer {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background: #25283D;
+}
+footer nav p{
+    color: white;
+    cursor: pointer;
+}
+footer nav {
+    display: flex;
+    justify-content: center;
+    padding: 2% 6%;
+}
+  
+.row{
+    display: flex;
+    justify-content: center;
+    padding: 2% 6%;
+}
+.row img{
+    width: 426px;
+    height: 404px;
+}
+  
+.text{
+    color:white;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 1300px;
+    text-align: justify;
+}
+  
+.razdel h1 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+  
+hr {
+    margin: 20px;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 1.5px solid #A675A1;
+}
+
+.buttonup {
+    width:100px;
+    height: 100px;
+    padding:10px;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    cursor:pointer;
+    opacity: 0.5;
+}

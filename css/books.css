@@ -176,3 +176,13 @@ hr {
   border: none;
   border-top: 1.5px solid #A675A1;
 }
+
+.buttonup {
+  width:100px;
+  height: 100px;
+  padding:10px;
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  cursor:pointer;
+}
